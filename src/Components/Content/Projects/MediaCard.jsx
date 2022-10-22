@@ -6,14 +6,16 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import "../Projects/MediaCard.css";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function MediaCard(props) {
   return (
     <div>
-      <Card className="mediaCard" sx={{ maxWidth: 345 }}>
+      <Card className="mediaCard" sx={{ maxWidth: "100%" }}>
         <CardMedia
           component="img"
-          height="140"
+          height="100%"
+          style={{ maxHeight: "410px" }}
           image={props.imageUrl}
           alt={props.title}
         />
@@ -34,18 +36,28 @@ export default function MediaCard(props) {
             {props.description}
           </Typography>
         </CardContent>
-        <CardActions>
+
+        <div
+          style={{
+            position: "relative",
+            textAlign: "end",
+            marginRight: "1rem",
+          }}
+        >
           <Button
-            className="card"
-            style={{ backgroundColor: "gray" }}
+            className="buttons"
+            style={{
+              backgroundColor: "gray",
+              marginLeft: "2rem",
+            }}
             onClick={() => window.open(props.link)}
             variant="contained"
             color="secondary"
-            size="small"
+            size="large"
           >
             <span>Learn More</span>
           </Button>
-        </CardActions>
+        </div>
       </Card>
     </div>
   );

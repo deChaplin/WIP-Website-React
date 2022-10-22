@@ -1,12 +1,11 @@
 .mediaCard {
-    margin-top: 5rem;
+    margin-top: 0rem;
     min-height: 350px;
-    max-height: 350px;
+    max-height: 800px;
 }
 
 .carouselCard {
-    margin-Left: 5rem;
-    max-Width: 345px;
+    max-Width: 800px;
 }
 
 .carouselCard:hover {
@@ -36,10 +35,13 @@
 }
 
 @media screen and (max-width: 1920px) {
-.mediaCard {
-        margin-top: 3rem;
-        margin-right: 1rem;
+    .mediaCard {
         min-height: 350px;
-        max-height: 350px;
+        max-height: 700px;
+        max-width: 700px;
+    }
+
+.carouselCard {
+        max-Width: 700px;
     }
 }

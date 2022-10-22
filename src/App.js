@@ -1,10 +1,9 @@
-import { useEffect, useState, useCallback } from "react";
+import { useEffect } from "react";
 import "./App.css";
 
-import Navbar from "./Components/Navbar/Navbar.jsx";
-import MyRouter from "./Components/Router.jsx";
-import Particles from "./Components/Particles/Particles.js";
 import Footer from "./Components/Footerbar/Footer.jsx";
+import Particles from "./Components/Particles/Particles.js";
+import MyRouter from "./Components/Router.jsx";
 
 const App = () => {
   useEffect(() => {
@@ -15,7 +14,6 @@ const App = () => {
 
   return (
     <div className="App">
-      <Navbar />
       <MyRouter />
       <Particles />
       <Footer />

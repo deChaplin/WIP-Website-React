@@ -1,5 +1,6 @@
 import { Grid } from "@mui/material";
 import React, { Component } from "react";
+import HomeButton from "../../HomeButton/HomeButton";
 
 export default class About extends Component {
   render() {
@@ -7,11 +8,12 @@ export default class About extends Component {
     const small = 12;
     const medium = 6;
     const large = 6;
-    const xLarge = 6;
+    const xLarge = 5.6;
 
     return (
-      <div style={{ margin: "7rem" }} id="page1">
-        <Grid container spacing={5}>
+      <div>
+        <HomeButton />
+        <Grid container spacing={5} style={{ margin: "1rem" }}>
           <Grid item xs={xSmall} sm={small} md={medium} lg={large} xl={xLarge}>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.

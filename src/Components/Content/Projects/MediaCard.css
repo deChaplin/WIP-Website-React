@@ -1,8 +1,8 @@
-.card {
-    margin-Left: 10px;
-    margin-Top: 3px;
+.buttons {
+    background-Color: gray;
+    margin-Left: 2rem;
 }
 
-.card:hover {
-    transform: scale(1.05, 1.05);
+.buttons:hover {
+    transform: scale(1.1, 1.1);
 }
