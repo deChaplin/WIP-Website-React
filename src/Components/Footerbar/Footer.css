@@ -1,0 +1,37 @@
+.ulF {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+  
+.liF {
+    float: left;
+}
+  
+.liF a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 1px;
+    text-decoration: none;
+}
+
+.footerimage {
+    margin-top: 14px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.footerimagemail {
+    margin-top: 9px;
+    width: 30px;
+    height: 40px;
+    object-fit: cover;
+}

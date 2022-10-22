@@ -1,0 +1,45 @@
+.mediaCard {
+    margin-top: 5rem;
+    min-height: 350px;
+    max-height: 350px;
+}
+
+.carouselCard {
+    margin-Left: 5rem;
+    max-Width: 345px;
+}
+
+.carouselCard:hover {
+    transform: scale(1.03, 1.03);
+}
+
+@media screen and (max-width: 600px) {
+    .mediaCard {
+        margin-top: 3rem;
+        margin-left: 1rem;
+        min-height: 350px;
+        max-height: 350px;
+        max-width: 400px;
+    }
+
+    .carouselCard {
+        margin-Left: 2rem;
+        max-Width: 325px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .carouselCard {
+        margin-Left: 2rem;
+        max-Width: 295px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+.mediaCard {
+        margin-top: 3rem;
+        margin-right: 1rem;
+        min-height: 350px;
+        max-height: 350px;
+    }
+}

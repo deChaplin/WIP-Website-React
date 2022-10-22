@@ -1,0 +1,124 @@
+ <div>
+          <MediaCard
+            imageUrl="https://user-images.githubusercontent.com/85872356/171001104-9e306ef3-27b3-4d64-81a9-731965ca0dc3.png"
+            alt="Tarkov Helper Image"
+            title="Tarkov Helper"
+            description="Simple application written in C# and makes use of win forms"
+          />
+        </div>
+        <div>
+          <MediaCard
+            imageUrl=""
+            alt="Test Image"
+            title="TEST 1"
+            description="Testing the card"
+          />
+        </div>
+        <div>
+          <MediaCard
+            imageUrl=""
+            alt="Test Image"
+            title="TEST 2"
+            description="Testing the card"
+          />
+        </div>
+        <div>
+          <MediaCard
+            imageUrl=""
+            alt="Test Image"
+            title="TEST 3"
+            description="Testing the card"
+          />
+        </div>
+        <div>
+          <MediaCard
+            imageUrl=""
+            alt="Test Image"
+            title="TEST 4"
+            description="Testing the card"
+          />
+        </div>
+        <div>
+          <MediaCard
+            imageUrl=""
+            alt="Test Image"
+            title="TEST 5"
+            description="Testing the card"
+          />
+        </div>
+        <div>
+          <MediaCard
+            imageUrl=""
+            alt="Test Image"
+            title="TEST 6"
+            description="Testing the card"
+          />
+        </div>
+        <div>
+          <MediaCard
+            imageUrl=""
+            alt="Test Image"
+            title="TEST 7"
+            description="Testing the card"
+          />
+        </div>
+        <div>
+          <MediaCard
+            imageUrl=""
+            alt="Test Image"
+            title="TEST 8"
+            description="Testing the card"
+          />
+        </div>
+        <div>
+          <MediaCard
+            imageUrl=""
+            alt="Test Image"
+            title="TEST 9"
+            description="Testing the card"
+          />
+        </div>
+
+
+
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonBack,
+  ButtonNext,
+} from "pure-react-carousel";
+
+
+        <CarouselProvider totalSlides={3} visibleSlides={4}>
+        <div style={{ position: "relative" }}>
+          <Slider>
+            <Slide index={0}>
+              <MediaCard
+                imageUrl=""
+                alt="Test Image"
+                title="TEST 1"
+                description="Testing the card"
+              />
+            </Slide>
+            <Slide index={1}>
+              <MediaCard
+                imageUrl=""
+                alt="Test Image"
+                title="TEST 1"
+                description="Testing the card"
+              />
+            </Slide>
+            <Slide index={2}>
+              <MediaCard
+                imageUrl=""
+                alt="Test Image"
+                title="TEST 1"
+                description="Testing the card"
+              />
+            </Slide>
+          </Slider>
+          <ButtonBack style={{ position: "absolute" }}>Back</ButtonBack>
+          <ButtonNext style={{ position: "absolute" }}>Next</ButtonNext>
+        </div>
+      </CarouselProvider>
