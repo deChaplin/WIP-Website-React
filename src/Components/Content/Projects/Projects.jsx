@@ -42,6 +42,25 @@ const Projects = (props) => {
             alt="Auto Clicker Image"
             title="Auto Clicker"
             description="An auto clicker written in C#."
+            link="https://github.com/deChaplin/CSharp-Auto-Clicker"
+          />
+        </div>
+        <div>
+          <MediaCard
+            imageUrl="https://user-images.githubusercontent.com/85872356/203089260-2123c787-ed2e-4b66-9764-5e89804b3e10.png"
+            alt="Image of the menu"
+            title="My First Dear ImGui Menu"
+            description="A simple menu created using the Dear ImGui library."
+            link="https://github.com/deChaplin/ImGui-Menu"
+          />
+        </div>
+        <div>
+          <MediaCard
+            imageUrl="https://user-images.githubusercontent.com/85872356/203100482-75918b70-d2c6-4d92-8d80-cb55b5169293.png"
+            alt="Image of the bot's response"
+            title="VAC Checker Bot"
+            description="A program to check if accounts have been banned by VAC (Valve Anti Cheat) software. It has been written in python with the aim to connect it to a discord bot."
+            link="https://github.com/deChaplin/VAC-Checker"
           />
         </div>
         <div>
@@ -50,6 +69,7 @@ const Projects = (props) => {
             alt="Gelatin Geode Image"
             title="Gelatin Geode Game"
             description="A game made during my first year of studying Computer Games Development."
+            link="https://github.com/deChaplin/Unreal-engine-Gelatin-Geode"
           />
         </div>
         <div>
@@ -58,6 +78,7 @@ const Projects = (props) => {
             alt="Cennet Down to ashes Image"
             title="Cennet Down to ashes"
             description="A game made during my first year of studying Computer Games Development."
+            link="https://github.com/deChaplin/Unreal-Engine-Cennet-Down-to-ashes"
           />
         </div>
         <div>
@@ -66,6 +87,7 @@ const Projects = (props) => {
             alt="Dim Spirits 4 Image"
             title="Dim Spirits 4"
             description="A game made during my first year of studying Computer Games Development."
+            link="https://github.com/deChaplin/Unreal-Engine-Dim-Spirits-4"
           />
         </div>
         <div>
@@ -74,6 +96,7 @@ const Projects = (props) => {
             alt="Dark Discord Theme Image"
             title="Dark Discord Theme"
             description="A theme written using CSS for better discord."
+            link="https://github.com/deChaplin/Dark-Discord-Theme"
           />
         </div>
         <div>
@@ -82,6 +105,7 @@ const Projects = (props) => {
             alt="Website Image"
             title="React Website"
             description="My portfolio website. You're currently on it!"
+            link="https://github.com/deChaplin/WIP-Website-React"
           />
         </div>
         <div>
@@ -90,6 +114,7 @@ const Projects = (props) => {
             alt="Tic Tac Toe Image"
             title="Tic-Tac-Toe"
             description="The well known game Tic-Tac-Toe made using C#."
+            link="https://github.com/deChaplin/CSharp-Tic-Tac-Toe"
           />
         </div>
       </Slider>

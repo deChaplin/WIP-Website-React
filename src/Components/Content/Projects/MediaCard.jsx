@@ -11,11 +11,19 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 export default function MediaCard(props) {
   return (
     <div>
-      <Card className="mediaCard" sx={{ maxWidth: "100%" }}>
+      <Card
+        className="mediaCard"
+        sx={{ maxWidth: "100%" }}
+        style={{
+          backgroundColor: "#222222",
+          border: "4px solid #222222",
+          color: "white",
+        }}
+      >
         <CardMedia
           component="img"
           height="100%"
-          style={{ maxHeight: "410px" }}
+          style={{ height: "400px", color: "white" }}
           image={props.imageUrl}
           alt={props.title}
         />
@@ -31,7 +39,12 @@ export default function MediaCard(props) {
           <Typography
             variant="body2"
             color="text.secondary"
-            style={{ fontSize: ".85rem", height: "55px", overflow: "hidden" }}
+            style={{
+              fontSize: ".85rem",
+              height: "55px",
+              overflow: "hidden",
+              color: "white",
+            }}
           >
             {props.description}
           </Typography>
@@ -48,7 +61,6 @@ export default function MediaCard(props) {
             className="buttons"
             style={{
               backgroundColor: "gray",
-              marginLeft: "2rem",
             }}
             onClick={() => window.open(props.link)}
             variant="contained"

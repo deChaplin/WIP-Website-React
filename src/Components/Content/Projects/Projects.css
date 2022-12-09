@@ -1,47 +1,46 @@
 .mediaCard {
-    margin-top: 0rem;
-    min-height: 350px;
-    max-height: 800px;
+  margin-top: 0rem;
+  min-height: 350px;
+  max-height: 800px;
 }
 
 .carouselCard {
-    max-Width: 800px;
+  max-width: 800px;
 }
 
 .carouselCard:hover {
-    transform: scale(1.03, 1.03);
 }
 
 @media screen and (max-width: 600px) {
-    .mediaCard {
-        margin-top: 3rem;
-        margin-left: 1rem;
-        min-height: 350px;
-        max-height: 350px;
-        max-width: 400px;
-    }
+  .mediaCard {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    min-height: 350px;
+    max-height: 350px;
+    max-width: 400px;
+  }
 
-    .carouselCard {
-        margin-Left: 2rem;
-        max-Width: 325px;
-    }
+  .carouselCard {
+    margin-left: 2rem;
+    max-width: 325px;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .carouselCard {
-        margin-Left: 2rem;
-        max-Width: 295px;
-    }
+  .carouselCard {
+    margin-left: 2rem;
+    max-width: 295px;
+  }
 }
 
 @media screen and (max-width: 1920px) {
-    .mediaCard {
-        min-height: 350px;
-        max-height: 700px;
-        max-width: 700px;
-    }
+  .mediaCard {
+    min-height: 350px;
+    max-height: 700px;
+    max-width: 700px;
+  }
 
-.carouselCard {
-        max-Width: 700px;
-    }
+  .carouselCard {
+    max-width: 700px;
+  }
 }
